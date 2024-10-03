@@ -10,6 +10,7 @@
 //================Step 0================
 //Input and Variables
 
+//using NodeJS to run javascript means you need to use some fancy stuff to link up to the standard console input/output :P
 const readline = require('node:readline');
 const rl = readline.createInterface({
     input: process.stdin,

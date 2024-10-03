@@ -19,10 +19,10 @@ fn main() {
     //rust input is done with stdin().readline(), with a mutable buffer string passed as an argument
     let mut input_line = String::new();
 
-    //unwrap() gets the string out of the Result, crashing if error
+    //expect() gets the string out of the Result, crashing (with a message) if error
     stdin().read_line(&mut input_line).expect("read_line should have worked");
 
-    //trim() to get rid of trailing newline, split at the space, and collect into a Vector (dynamic array)
+    //trim() to get rid of trailing newline, split() at the space, and collect() into a Vector (dynamic array)
     let input_line: Vec<&str> = input_line.trim().split(" ").collect();
 
     //get r and f (as i32s) by parsing the two elements in the input_line vec

@@ -1,3 +1,3 @@
-/PythonExamples/Month1/.venv
-/RustExamples/Month1/target
-/CPPExamples/Month1/*.exe
+/PythonExamples/*/.venv
+/RustExamples/*/target
+/CPPExamples/*/*.exe
